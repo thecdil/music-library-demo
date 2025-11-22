@@ -5,18 +5,21 @@ layout: page
 <div class="row">
   <div class="col-md-8">
 
-    {% include index/description.html %}
-
-    {% include index/carousel.html title="Sample Items" height=450 %}
+    <div class="card mb-3">
+    <div class="card-body">
+        <h2 class="card-title h5">Description</h2>
+        <p class="card-text">Browse and discover sheet music held by the Music Library at the Lionel Hampton School of Music, University of Idaho.</p>
+        <p><a class="btn btn-pride-gold" href="{{ '/browse.html' | relative_url }}" >Browse All Scores &raquo;</a></p>
+        <p><a class="btn btn-clearwater" href="{{ '/about.html' | relative_url }}" >Learn More &raquo;</a></p>
+    </div>
+</div>
   
   </div>
   <div class="col-md-4">
 
-    {% include index/time.html %}
+    {% include index/featured-terms.html field="Composer" title="Top Composers" btn-color="primary" max=8 %}
 
-    {% include index/featured-terms.html field="subject" title="Top Subjects" btn-color="primary" max=8 %}
-
-    {% include index/featured-terms.html field="creator" title="Creators" btn-color="success" max=8 %}
+    {% include index/featured-terms.html field="Arranger" title="Top Arrangers" btn-color="success" max=8 %}
 
     {% include index/objects.html %}
 
