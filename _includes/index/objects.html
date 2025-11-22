@@ -31,7 +31,7 @@
         }
         var record_count = item_formats.filter(f => { return f.includes("record") }).length;
         if (record_count > 0) {
-            format_buttons += record_count + ' <a class="text-dark" href="{{ "/browse.html" | relative_url }}#record">Records <svg class="bi icon-sprite text-body" fill="currentColor" aria-hidden="true"><use xlink:href="{{ '/assets/lib/cb-icons.svg' | relative_url }}#icon-record"/></svg></a><br>';
+            format_buttons += record_count + ' <a class="text-dark" href="{{ "/browse.html" | relative_url }}">Records <svg class="bi icon-sprite text-body" fill="currentColor" aria-hidden="true"><use xlink:href="{{ '/assets/lib/cb-icons.svg' | relative_url }}#icon-record"/></svg></a><br>';
         }
         var compound_count = item_formats.filter(f => { return f.includes("compound") }).length;
         if (compound_count > 0) {
