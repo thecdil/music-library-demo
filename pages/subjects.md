@@ -10,7 +10,7 @@ permalink: /subjects.html
 
 ## Browse Facets
 
-Use these word cloud visualizations to browse Composers, Arrangers, and Publishers.
+Use these word cloud visualizations to browse [Composers](#composer), [Arrangers](#arranger), and [Publishers](#publisher).
 Word size is determined by frequency and all link to a corresponding collection search.
 
 ### Composer
