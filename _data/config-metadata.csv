@@ -1,24 +1,11 @@
 field,display_name,browse_link,external_link
 title,Title,
 Composer,Composer,true,
-Arranger,Arranger,true
+Arranger,Arranger,true,
+Publisher,Publisher,true,
 Envelope,Envelope,
-Publisher,Publisher,
 Score Type (full/cond/oversize),Score Type,	
 Missing Parts?,Missing Parts?,
 PlayingTime,Playing Time,
 Comments,Comments
 Library,Library,
-creator,Creator,
-date,Date Created,
-description,Description,
-subject,Subjects,true
-location,Location
-latitude,Latitude
-longitude,Longitude
-source,Source
-identifier,Source Identifier,,
-type,Type,
-format,Format,
-rights,Rights,
-rightsstatement,Rights Statement,,true

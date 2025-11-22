@@ -1,4 +1,4 @@
 field,display_name,btn,hidden,sort_name
-Composer,Composer,,,
-Arranger,Arranger,,,
-Publisher,,
+Composer,Composer,true,,Composer
+Arranger,Arranger,btn,,
+Publisher,Publisher,,,
